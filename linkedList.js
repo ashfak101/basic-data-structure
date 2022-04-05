@@ -28,6 +28,22 @@ class LinkedList{
         this.head= new Node(data,this.head);
     }
     // Insert Last node 
+    insertLast(data){
+        let node =new Node(data)
+        let current;
+
+        // if Empty ,make head
+        if(!this.head){
+            this.head= Node
+        }
+        else{
+            current =this.head;
+            while(current.next){
+                current.next=node 
+            }
+            current.next =node;
+        }
+    }
 
     // Insert at index
 
